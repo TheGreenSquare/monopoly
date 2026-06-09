@@ -255,7 +255,7 @@ td {
 	background-color: #305BC9;
 	/* background-image: -webkit-linear-gradient(bottom,#213EB2,#4787ED);
 	background-image: -moz-linear-gradient(bottom,#213EB2,#4787ED); */
-	background-image: url(images/menu_background.png);
+	background-image: url(src/img/menuBG.png);
 	/* background-repeat: repeat-x; */
 	overflow: hidden;
 }
@@ -523,7 +523,7 @@ td {
 	/* background-image: -webkit-linear-gradient(bottom,#000080,#4787ED);
 	background-image: -moz-linear-gradient(bottom,#000080,#4787ED); */
 
-	background-image: url(images/menu_background_hover.png);
+	background-image: url(src/img/menuBG_hover.png);
 }
 
 .menu-item {
@@ -773,7 +773,7 @@ td {
 }
 
 .board-top .cell-owner {
-	background-image: url("images/hori-bar.png");
+	background-image: url("src/img/horizontalBar.png");
 
 	height: 15px;
 	left: 0px;
@@ -786,7 +786,7 @@ td {
 }
 
 .board-bottom .cell-owner {
-	background-image: url("images/hori-bar.png");
+	background-image: url("src/img/horizontalBar.png");
 	bottom: -25px;
 
 	height: 15px;
@@ -799,7 +799,7 @@ td {
 }
 
 .board-left .cell-owner {
-	background-image: url("images/vert-bar.png");
+	background-image: url("src/img/verticalBar.png");
 
 	height: 68px;
 	left: -25px;
@@ -812,7 +812,7 @@ td {
 }
 
 .board-right .cell-owner {
-	background-image: url("images/vert-bar.png");
+	background-image: url("src/img/verticalBar.png");
 
 	height: 68px;
 	right: -25px;
